@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WinSpy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x424 /fo"Debug/WinSpy.res" /d "_DEBUG" "F:\code\winsys\hook\codeinject_package\WinSpy_src\WinSpy.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3FD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\code\winsys\hook\codeinject_package\WinSpy_src\InjCode.cpp"
+"F:\code\winsys\hook\codeinject_package\WinSpy_src\WinSpy.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3FD.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3FE.bat" with contents
+[
+@echo off
+copyright.bat
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3FE.bat"
+Compiling resources...
+Compiling...
+InjCode.cpp
+WinSpy.cpp
+Generating Code...
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/WinSpy.pdb" /debug /machine:I386 /out:"Debug/WinSpy.exe" /pdbtype:sept  .\Debug\InjCode.obj .\Debug\WinSpy.obj .\Debug\WinSpy.res "
+
+===本程序下载于VC知识库(www.vckbase.com)===
+-------技术支持由UIPower提供(www.uipower.com)------
+......如遇到任何技术问题请发邮件vckbase@vckbase.com......
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+WinSpy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

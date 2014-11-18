@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HookInjEx_DLL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3C5.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "INJECT_EX_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\winsys\hook\codeinject_package\HookInjEx_src\HookInjEx_DLL\HookInjEx_DLL.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3C5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3C6.bat" with contents
+[
+@echo off
+copyright.bat
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3C6.bat"
+Compiling...
+HookInjEx_DLL.cpp
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:yes /pdb:"Debug/HookInjEx.pdb" /debug /machine:I386 /out:"../HookInjEx/Debug/HookInjEx.dll" /implib:"Debug/HookInjEx.lib" /pdbtype:sept  .\Debug\HookInjEx_DLL.obj "
+
+===本程序下载于VC知识库(www.vckbase.com)===
+-------技术支持由UIPower提供(www.uipower.com)------
+......如遇到任何技术问题请发邮件vckbase@vckbase.com......
+<h3>Output Window</h3>
+Linking...
+   Creating library Debug/HookInjEx.lib and object Debug/HookInjEx.exp
+<h3>
+--------------------Configuration: HookInjEx - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x424 /fo"Debug/HookInjEx.res" /d "_DEBUG" "F:\code\winsys\hook\codeinject_package\HookInjEx_src\HookInjEx\HookInjEx.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\code\winsys\hook\codeinject_package\HookInjEx_src\HookInjEx\HookInjEx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CA.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CB.bat" with contents
+[
+@echo off
+copyright.bat
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CB.bat"
+Compiling resources...
+Compiling...
+HookInjEx.cpp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HookInjEx.pdb" /debug /machine:I386 /out:"Debug/HookInjEx.exe" /pdbtype:sept 
+.\Debug\HookInjEx.obj
+.\Debug\HookInjEx.res
+\code\winsys\hook\codeinject_package\HookInjEx_src\HookInjEx_DLL\Debug\HookInjEx.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CC.tmp"
+
+===本程序下载于VC知识库(www.vckbase.com)===
+-------技术支持由UIPower提供(www.uipower.com)------
+......如遇到任何技术问题请发邮件vckbase@vckbase.com......
+<h3>Output Window</h3>
+Linking...
+LINK : LNK6004: Debug/HookInjEx.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+HookInjEx.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

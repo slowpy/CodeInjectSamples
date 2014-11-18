@@ -1,0 +1,10 @@
+
+
+How to get the right OFFSET? 
+----------------------------
+
+Possible solutions:
+
+  1.. The easiest way is to look at the compiled function in a dissassembler.
+ 
+  2.. If you are not familiar with the assembly language, simply call NewProc from your program (without copying it anywhere!) and debug through it. Then compare the value in ECX with the address of the original NewProc.
